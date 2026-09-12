@@ -1,0 +1,340 @@
+{
+  "defaultLanguage": "en",
+  "currency": "THB",
+  "restaurant": {
+    "name": {
+      "ru": "Ресторан Сиам",
+      "en": "Siam Restaurant",
+      "th": "ร้านอาหารสยาม"
+    },
+    "description": {
+      "ru": "Тайская кухня • Свежие ингредиенты",
+      "en": "Thai cuisine • Fresh ingredients",
+      "th": "อาหารไทย • วัตถุดิบสดใหม่"
+    },
+    "logo": "images/logo.svg",
+    "address": {
+      "ru": "Хуахин, Таиланд",
+      "en": "Hua Hin, Thailand",
+      "th": "หัวหิน ประเทศไทย"
+    },
+    "hours": {
+      "ru": "Ежедневно 11:00–22:00",
+      "en": "Daily 11:00–22:00",
+      "th": "เปิดทุกวัน 11:00–22:00"
+    },
+    "phone": "+66000000000",
+    "maps": "https://maps.google.com/",
+    "website": "",
+    "facebook": "",
+    "instagram": "",
+    "line": ""
+  },
+  "ui": {
+    "menu": {
+      "ru": "Меню",
+      "en": "Menu",
+      "th": "เมนู"
+    },
+    "search": {
+      "ru": "Поиск блюда…",
+      "en": "Search dishes…",
+      "th": "ค้นหาเมนู…"
+    },
+    "all": {
+      "ru": "Все",
+      "en": "All",
+      "th": "ทั้งหมด"
+    },
+    "popular": {
+      "ru": "Популярное",
+      "en": "Popular",
+      "th": "ยอดนิยม"
+    },
+    "vegetarian": {
+      "ru": "Вегетарианское",
+      "en": "Vegetarian",
+      "th": "มังสวิรัติ"
+    },
+    "vegan": {
+      "ru": "Веганское",
+      "en": "Vegan",
+      "th": "วีแกน"
+    },
+    "spicy": {
+      "ru": "Острое",
+      "en": "Spicy",
+      "th": "เผ็ด"
+    },
+    "new": {
+      "ru": "Новинки",
+      "en": "New",
+      "th": "ใหม่"
+    },
+    "nothingFound": {
+      "ru": "Ничего не найдено",
+      "en": "Nothing found",
+      "th": "ไม่พบรายการ"
+    },
+    "phone": {
+      "ru": "Позвонить",
+      "en": "Call",
+      "th": "โทร"
+    },
+    "maps": {
+      "ru": "Маршрут",
+      "en": "Directions",
+      "th": "เส้นทาง"
+    },
+    "website": {
+      "ru": "Сайт",
+      "en": "Website",
+      "th": "เว็บไซต์"
+    },
+    "facebook": {
+      "ru": "Facebook",
+      "en": "Facebook",
+      "th": "Facebook"
+    },
+    "instagram": {
+      "ru": "Instagram",
+      "en": "Instagram",
+      "th": "Instagram"
+    },
+    "line": {
+      "ru": "LINE",
+      "en": "LINE",
+      "th": "LINE"
+    },
+    "sizes": {
+      "small": {
+        "ru": "Маленький",
+        "en": "Small",
+        "th": "เล็ก"
+      },
+      "medium": {
+        "ru": "Средний",
+        "en": "Medium",
+        "th": "กลาง"
+      },
+      "large": {
+        "ru": "Большой",
+        "en": "Large",
+        "th": "ใหญ่"
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "starters",
+      "name": {
+        "ru": "Закуски",
+        "en": "Starters",
+        "th": "อาหารทานเล่น"
+      },
+      "dishes": [
+        {
+          "id": "spring-rolls",
+          "name": {
+            "ru": "Спринг-роллы",
+            "en": "Spring Rolls",
+            "th": "ปอเปี๊ยะทอด"
+          },
+          "description": {
+            "ru": "Хрустящие роллы с овощами и сладким соусом",
+            "en": "Crispy rolls with vegetables and sweet dipping sauce",
+            "th": "ปอเปี๊ยะทอดไส้ผักพร้อมน้ำจิ้มหวาน"
+          },
+          "price": 120,
+          "image": "images/spring-rolls.svg",
+          "vegetarian": true,
+          "vegan": false,
+          "spicy": false,
+          "popular": false,
+          "new": false,
+          "available": true
+        },
+        {
+          "id": "satay",
+          "name": {
+            "ru": "Куриный сатай",
+            "en": "Chicken Satay",
+            "th": "ไก่สะเต๊ะ"
+          },
+          "description": {
+            "ru": "Курица на гриле, арахисовый соус и огуречный салат",
+            "en": "Grilled chicken skewers with peanut sauce and cucumber relish",
+            "th": "ไก่ย่างเสิร์ฟพร้อมน้ำจิ้มถั่วและอาจาด"
+          },
+          "price": 160,
+          "image": "images/satay.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": false,
+          "popular": true,
+          "new": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": {
+        "ru": "Супы",
+        "en": "Soups",
+        "th": "ซุป"
+      },
+      "dishes": [
+        {
+          "id": "tom-yum",
+          "name": {
+            "ru": "Том Ям с креветками",
+            "en": "Tom Yum Goong",
+            "th": "ต้มยำกุ้ง"
+          },
+          "description": {
+            "ru": "Кисло-острый суп с креветками, лемонграссом и лаймом",
+            "en": "Hot and sour shrimp soup with lemongrass and lime",
+            "th": "ต้มยำกุ้งรสจัดจ้านพร้อมตะไคร้และมะนาว"
+          },
+          "price": {
+            "small": 180,
+            "large": 280
+          },
+          "image": "images/tom-yum.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": true,
+          "popular": true,
+          "new": false,
+          "available": true
+        },
+        {
+          "id": "tom-kha",
+          "name": {
+            "ru": "Том Кха Гай",
+            "en": "Tom Kha Gai",
+            "th": "ต้มข่าไก่"
+          },
+          "description": {
+            "ru": "Кокосовый суп с курицей, галангалом и грибами",
+            "en": "Coconut soup with chicken, galangal and mushrooms",
+            "th": "ต้มข่าไก่ใส่กะทิ ข่า และเห็ด"
+          },
+          "price": 190,
+          "image": "images/tom-kha.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": false,
+          "popular": false,
+          "new": false,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "mains",
+      "name": {
+        "ru": "Основные блюда",
+        "en": "Main Courses",
+        "th": "อาหารจานหลัก"
+      },
+      "dishes": [
+        {
+          "id": "pad-thai",
+          "name": {
+            "ru": "Пад Тай с креветками",
+            "en": "Pad Thai with Shrimp",
+            "th": "ผัดไทยกุ้ง"
+          },
+          "description": {
+            "ru": "Рисовая лапша с креветками, яйцом, ростками и арахисом",
+            "en": "Rice noodles with shrimp, egg, bean sprouts and peanuts",
+            "th": "เส้นผัดไทยพร้อมกุ้ง ไข่ ถั่วงอก และถั่วลิสง"
+          },
+          "price": 180,
+          "image": "images/pad-thai.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": false,
+          "popular": true,
+          "new": false,
+          "available": true
+        },
+        {
+          "id": "green-curry",
+          "name": {
+            "ru": "Зелёный карри с курицей",
+            "en": "Green Curry with Chicken",
+            "th": "แกงเขียวหวานไก่"
+          },
+          "description": {
+            "ru": "Ароматный кокосовый карри с тайским базиликом",
+            "en": "Aromatic coconut curry with Thai basil",
+            "th": "แกงเขียวหวานกะทิหอมพร้อมใบโหระพาไทย"
+          },
+          "price": 200,
+          "image": "images/green-curry.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": true,
+          "popular": false,
+          "new": false,
+          "available": true
+        },
+        {
+          "id": "basil-chicken",
+          "name": {
+            "ru": "Курица с базиликом",
+            "en": "Chicken with Thai Basil",
+            "th": "ผัดกะเพราไก่"
+          },
+          "description": {
+            "ru": "Курица, чеснок, перец чили и тайский базилик с рисом",
+            "en": "Chicken, garlic, chili and Thai basil served with rice",
+            "th": "ไก่ผัดกระเทียม พริก และกะเพรา เสิร์ฟพร้อมข้าว"
+          },
+          "price": 170,
+          "image": "images/basil-chicken.svg",
+          "vegetarian": false,
+          "vegan": false,
+          "spicy": true,
+          "popular": false,
+          "new": true,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "ru": "Десерты",
+        "en": "Desserts",
+        "th": "ของหวาน"
+      },
+      "dishes": [
+        {
+          "id": "mango-sticky-rice",
+          "name": {
+            "ru": "Манго с клейким рисом",
+            "en": "Mango Sticky Rice",
+            "th": "ข้าวเหนียวมะม่วง"
+          },
+          "description": {
+            "ru": "Спелое манго, кокосовый клейкий рис и кокосовый крем",
+            "en": "Ripe mango, coconut sticky rice and coconut cream",
+            "th": "มะม่วงสุก ข้าวเหนียวมูน และกะทิ"
+          },
+          "price": 150,
+          "image": "images/mango-sticky-rice.svg",
+          "vegetarian": true,
+          "vegan": true,
+          "spicy": false,
+          "popular": true,
+          "new": false,
+          "available": true
+        }
+      ]
+    }
+  ]
+}
